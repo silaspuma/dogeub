@@ -1,2 +1,2 @@
-/bare/* http://64.23.239.43:8080/bare/:splat 200!
-/* /index.html 200
+/wisp/* ws://64.23.239.43:8080/:splat  101!
+/* /index.html                   200
