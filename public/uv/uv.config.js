@@ -32,6 +32,7 @@ self.__uv$config = {
     client: "/uv/uv.client.js", 
     bundle: "/uv/uv.bundle.js",
     config: "/uv/uv.config.js",
-    sw: "/uv/uv.sw.js"
-    bare: "/bare/"
+    sw: "/uv/uv.sw.js",
+    // THE MISSING LINK:
+    wisp: (location.protocol === 'https:' ? 'wss' : 'ws') + '://' + location.host + '/wisp/'
 };
